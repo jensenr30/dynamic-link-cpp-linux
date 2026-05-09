@@ -1,14 +1,17 @@
-# Dynamic Library Example
+# Dynamic Library Example for Linux
+A simple program demonstrating loading a dynamic library on linux.
 
-## TODO
-- [x] compile the app
-- [x] compile the dyn lib
-- [ ] load dyn func
-- [ ] optionally: "Lazy linking can be turned off using the LD_BIND_NOW environment variable, or by compiling the program with the "-z now" linker option. " - 
+
+## Build and Run
+```
+make run
+```
 
 
 ## Inspect the dynamic lib's symbols
-`readelf -a dynamic-lib.so`
+```
+readelf -a dynamic-lib.so
+```
 
 
 ## Recommended Reading
