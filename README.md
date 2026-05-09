@@ -10,7 +10,7 @@ make run
 
 ## Inspect the dynamic lib's symbols
 ```
-readelf -a dynamic-lib.so
+readelf -s -W dynamic-lib.so
 ```
 
 
